@@ -1,91 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="sektor0.ico" type="image/x-icon">
-    <title>Sektor[0]</title>
-    <style>
-        body {
-            font-family: Tahoma, sans-serif;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        .container {
-            flex: 1;
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0px;
-        }
-        .logo {
-            max-width: 100%;
-            height: auto;
-        }
-        .bio {
-            margin-top: 40px;
-            max-width: 440px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-top: 0px;
-            padding-bottom: 0px;
-            padding-left: 12px;
-            padding-right: 12px;
-            font-size: 14px;
-            font-family: Tahoma, Helvetica, sans-serif;
-            line-height: 1.5;
-        }
-        .links {
-            margin-top: 40px;
-        }
-        .link {
-            display: block;
-            background-color: #fff;
-            color: #000;
-            text-decoration: none;
-            padding: 12px;
-            margin-bottom: 10px;
-            border-radius: 0;
-            max-width: 272px;
-            margin-left: auto;
-            margin-right: auto;
-            font-size: 14px;
-            font-family: Tahoma, Helvetica, sans-serif;
-        }
-        .link:hover {
-            font-weight: bold;
-        }
-        .footer {
-            margin-bottom: 10px;
-            font-size: 11px;
-            background-color: #000;
-            padding: 0px;
-            width: 100%;
-            text-align: center;
-            color: #999;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="sektor0.ico" type="image/x-icon" />
+  <title>Sektor[0]</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .main-content {
+      flex: 1;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0px;
+    }
+    .logo {
+      max-width: 100%;
+      height: auto;
+    }
+    .bio {
+      margin-top: 40px;
+      max-width: 440px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 12px;
+      font-size: 14px;
+      font-family: Tahoma, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+    .links {
+      margin-top: 22px;
+    }
+    .link {
+      display: block;
+      background-color: #fff;
+      color: #000;
+      text-decoration: none;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-radius: 0;
+      max-width: 272px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 14px;
+      font-family: Tahoma, Helvetica, sans-serif;
+    }
+    .link:hover {
+      font-weight: bold;
+    }
+    .social-media {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 22px;
+      flex-wrap: wrap;
+    }
+    .image-button {
+      margin-top: 0px;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+    }
+    .footer {
+      margin-bottom: 10px;
+      font-size: 11px;
+      background-color: #000;
+      padding: 0px;
+      width: 100%;
+      text-align: center;
+      color: #999;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <img src="sektor0_web_banner.jpg" alt="Sektor[0] banner" class="logo">
-        <div class="bio">Sektor[0] is an electronic solo music project with influences of electro-industrial, synth wave and video game soundtracks.</div>
-        <div class="links">
-            <a href="https://sektor0.bandcamp.com/" class="link">Bandcamp</a>
-            <a href="https://open.spotify.com/intl-de/artist/11SXs8ckJUMegz30z1V9WS?si=8bdNl4rqR4qMVgTAkZ88wA" class="link">Spotify</a>
-            <a href="https://music.apple.com/us/artist/sektor-0/1666038561" class="link">Apple Music</a>
-            <a href="https://amazon.de/music/player/artists/B0BSHGL3WG/sektor-0?marketplaceId=A1PA6795UKMFR9&musicTerritory=DE&ref=dm_sh_Q9qd9Ht4gqQN8L0SYgF7N9SLR" class="link">Amazon Music</a>
-            <a href="https://www.youtube.com/@sektor0" class="link">YouTube</a>
-            <a href="https://www.discogs.com/de/artist/4960240-Sektor0" class="link">Discography</a>
-        </div>
+  <div class="main-content">
+    <img src="https://sektor0.github.io/sektor0_web_banner.jpg" alt="Sektor[0] banner" class="logo" />
+    <div class="bio">
+      Sektor[0] is an electronic solo music project with influences of electro-industrial, synth wave and video game soundtracks.
     </div>
-    <div class="footer">
-        Contact: sektor0@gmx.de
+    <div class="links">
+      <a href="https://sektor0.bandcamp.com/" target="_blank" class="link">Bandcamp</a>
+      <a href="https://open.spotify.com/intl-de/artist/11SXs8ckJUMegz30z1V9WS?si=8bdNl4rqR4qMVgTAkZ88wA" target="_blank" class="link">Spotify</a>
+      <a href="https://music.apple.com/us/artist/sektor-0/1666038561" target="_blank" class="link">Apple Music</a>
+      <a href="https://amazon.de/music/player/artists/B0BSHGL3WG/sektor-0?marketplaceId=A1PA6795UKMFR9&musicTerritory=DE&ref=dm_sh_Q9qd9Ht4gqQN8L0SYgF7N9SLR" target="_blank" class="link">Amazon Music</a>
+      <a href="https://www.discogs.com/de/artist/4960240-Sektor0" target="_blank" class="link">Discography</a>
     </div>
+    <div class="social-media">
+      <a href="https://www.facebook.com/people/Sektor0/100063612746557" target="_blank">
+        <img src="social-media-glyphs/facebook-glyph.jpg" alt="Facebook" class="image-button" />
+      </a>
+      <a href="https://www.youtube.com/@sektor0" target="_blank">
+        <img src="social-media-glyphs/youtube-glyph.jpg" alt="YouTube" class="image-button" />
+      </a>
+      <a href="https://instagram.com/sektornull" target="_blank">
+        <img src="social-media-glyphs/instagram-glyph.jpg" alt="Instagram" class="image-button" />
+      </a>
+      <a href="https://tiktok.com/@sektornull" target="_blank">
+        <img src="social-media-glyphs/tiktok-glyph.jpg" alt="TikTok" class="image-button" />
+      </a>
+    </div>
+  </div>
+  <div class="footer">
+    Contact: sektor0@gmx.de
+  </div>
 </body>
 </html>
+
